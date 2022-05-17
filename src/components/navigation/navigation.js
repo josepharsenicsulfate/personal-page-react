@@ -1,10 +1,12 @@
 import './navigation.css'
+// import logoMd from '././public/img/rsl-logo-md.png'
 
 function Navigation(){
     return(
         <div className='container'>
             <div className='container-img'>
-                <p>logoJG</p>
+                {/* <img src={logoMd} /> */}
+                <p>logo</p>
                 <button onClick={() => toggle()}>click me</button>
             </div>
             <div className='container-list'>

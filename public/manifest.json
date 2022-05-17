@@ -16,6 +16,16 @@
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "img/rsl-icon.png",
+      "typee": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "img/rsl-logo-md.png",
+      "typee": "image/png",
+      "sizes": "250x250"
     }
   ],
   "start_url": ".",
