@@ -1,0 +1,47 @@
+.container{
+    display: block;
+}
+
+.container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-list ul{
+    list-style-type: none;
+
+    padding: 0;
+    margin: 0;
+}
+
+.container-list ul li{
+    margin: 5px;
+
+    text-transform: capitalize;
+}
+
+.d-none{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-img button{
+        display: none;
+    }
+
+    .container-list ul li{
+        float: left;
+    }
+}
